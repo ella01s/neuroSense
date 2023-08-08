@@ -1,0 +1,214 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.neurosense"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="com.bfr.buddy.resource.SPEECH" />
+11-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:5:5-69
+11-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:5:22-66
+12    <uses-permission android:name="com.bfr.buddy.resource.LISTEN" />
+12-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:6:5-69
+12-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:6:22-66
+13    <uses-permission android:name="com.bfr.buddy.resource.WHEELS" />
+13-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:7:5-69
+13-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:7:22-66
+14    <uses-permission android:name="com.bfr.buddy.resource.HEAD" />
+14-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:8:5-67
+14-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="com.bfr.buddy.resource.LEDS" />
+15-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:9:5-67
+15-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="com.bfr.buddy.resource.SENSOR_MODULE" />
+16-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:10:5-76
+16-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:10:22-73
+17    <uses-permission android:name="com.bfr.buddy.resource.FACE" />
+17-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:11:5-67
+17-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:11:22-64
+18    <uses-permission android:name="com.bfr.buddy.resource.GUI" />
+18-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:12:5-66
+18-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:12:22-63
+19    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+19-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:14:5-82
+19-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:14:22-79
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->[com.bluefrogrobotics.buddy:BuddySDK:2.2.7] /Users/emmanuellasolomon/.gradle/caches/transforms-3/ed31b22c500db3c2aa2dd91cc58724b8/transformed/BuddySDK-2.2.7/AndroidManifest.xml:9:5-80
+20-->[com.bluefrogrobotics.buddy:BuddySDK:2.2.7] /Users/emmanuellasolomon/.gradle/caches/transforms-3/ed31b22c500db3c2aa2dd91cc58724b8/transformed/BuddySDK-2.2.7/AndroidManifest.xml:9:22-77
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->[com.bluefrogrobotics.buddy:BuddySDK:2.2.7] /Users/emmanuellasolomon/.gradle/caches/transforms-3/ed31b22c500db3c2aa2dd91cc58724b8/transformed/BuddySDK-2.2.7/AndroidManifest.xml:10:5-81
+21-->[com.bluefrogrobotics.buddy:BuddySDK:2.2.7] /Users/emmanuellasolomon/.gradle/caches/transforms-3/ed31b22c500db3c2aa2dd91cc58724b8/transformed/BuddySDK-2.2.7/AndroidManifest.xml:10:22-78
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.google.android.exoplayer:exoplayer-core:2.16.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/3ffd2d702614183abcd11dd275c5def0/transformed/exoplayer-core-2.16.0/AndroidManifest.xml:24:5-79
+22-->[com.google.android.exoplayer:exoplayer-core:2.16.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/3ffd2d702614183abcd11dd275c5def0/transformed/exoplayer-core-2.16.0/AndroidManifest.xml:24:22-76
+23
+24    <permission
+24-->[androidx.core:core:1.9.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/28da17273868b9a295e695c5dfecb0fe/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+25        android:name="com.example.neurosense.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.9.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/28da17273868b9a295e695c5dfecb0fe/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.9.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/28da17273868b9a295e695c5dfecb0fe/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="com.example.neurosense.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.9.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/28da17273868b9a295e695c5dfecb0fe/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.9.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/28da17273868b9a295e695c5dfecb0fe/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+29
+30    <application
+30-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:17:5-52:19
+31        android:name="com.example.neurosense.MainApplication"
+31-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:18:9-40
+32        android:allowBackup="true"
+32-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:19:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.9.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/28da17273868b9a295e695c5dfecb0fe/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+34        android:dataExtractionRules="@xml/data_extraction_rules"
+34-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:20:9-65
+35        android:debuggable="true"
+36        android:extractNativeLibs="false"
+37        android:fullBackupContent="@xml/backup_rules"
+37-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:21:9-54
+38        android:icon="@mipmap/ic_launcher"
+38-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:22:9-43
+39        android:label="@string/app_name"
+39-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:23:9-41
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:24:9-54
+41        android:supportsRtl="true"
+41-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:25:9-35
+42        android:testOnly="true"
+43        android:theme="@style/Theme.NeuroSense" >
+43-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:26:9-48
+44        <activity
+44-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:28:9-30:40
+45            android:name="com.example.neurosense.authentication.ui.signup.SignupActivity"
+45-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:29:13-68
+46            android:exported="false" />
+46-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:30:13-37
+47        <activity
+47-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:31:9-34:60
+48            android:name="com.example.neurosense.authentication.ui.login.LoginActivity"
+48-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:32:13-66
+49            android:exported="false"
+49-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:33:13-37
+50            android:label="@string/title_activity_login" />
+50-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:34:13-57
+51        <activity
+51-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:35:9-37:40
+52            android:name="com.example.neurosense.SudokuActivity"
+52-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:36:13-43
+53            android:exported="false" />
+53-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:37:13-37
+54        <activity
+54-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:38:9-42:67
+55            android:name="com.example.neurosense.GameHubActivity"
+55-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:39:13-44
+56            android:exported="false"
+56-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:40:13-37
+57            android:label="@string/title_activity_game_hub"
+57-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:41:13-60
+58            android:theme="@style/Theme.NeuroSense.NoActionBar" />
+58-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:42:13-64
+59        <activity
+59-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:43:9-51:20
+60            android:name="com.example.neurosense.MainActivity"
+60-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:44:13-41
+61            android:exported="true" >
+61-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:45:13-36
+62            <intent-filter>
+62-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:46:13-50:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:47:17-69
+63-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:47:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:49:17-77
+65-->/Users/emmanuellasolomon/AndroidProjects/neuroSense/app/src/main/AndroidManifest.xml:49:27-74
+66            </intent-filter>
+67        </activity>
+68
+69        <provider
+69-->[androidx.emoji2:emoji2:1.2.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/4d3442538451732988cf923a8f6ef2da/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+70            android:name="androidx.startup.InitializationProvider"
+70-->[androidx.emoji2:emoji2:1.2.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/4d3442538451732988cf923a8f6ef2da/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+71            android:authorities="com.example.neurosense.androidx-startup"
+71-->[androidx.emoji2:emoji2:1.2.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/4d3442538451732988cf923a8f6ef2da/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+72            android:exported="false" >
+72-->[androidx.emoji2:emoji2:1.2.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/4d3442538451732988cf923a8f6ef2da/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+73            <meta-data
+73-->[androidx.emoji2:emoji2:1.2.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/4d3442538451732988cf923a8f6ef2da/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+74-->[androidx.emoji2:emoji2:1.2.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/4d3442538451732988cf923a8f6ef2da/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+75                android:value="androidx.startup" />
+75-->[androidx.emoji2:emoji2:1.2.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/4d3442538451732988cf923a8f6ef2da/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+76            <meta-data
+76-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/emmanuellasolomon/.gradle/caches/transforms-3/18f89b9b379d53ef0af8275cd659d305/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+77                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+77-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/emmanuellasolomon/.gradle/caches/transforms-3/18f89b9b379d53ef0af8275cd659d305/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+78                android:value="androidx.startup" />
+78-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/emmanuellasolomon/.gradle/caches/transforms-3/18f89b9b379d53ef0af8275cd659d305/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+79            <meta-data
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/d4e44034754859027173baaffb21486b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+80                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/d4e44034754859027173baaffb21486b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+81                android:value="androidx.startup" />
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/d4e44034754859027173baaffb21486b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+82        </provider>
+83
+84        <uses-library
+84-->[androidx.window:window:1.0.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/1feb89a8365e32763ab360a975eb3066/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+85            android:name="androidx.window.extensions"
+85-->[androidx.window:window:1.0.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/1feb89a8365e32763ab360a975eb3066/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+86            android:required="false" />
+86-->[androidx.window:window:1.0.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/1feb89a8365e32763ab360a975eb3066/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+87        <uses-library
+87-->[androidx.window:window:1.0.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/1feb89a8365e32763ab360a975eb3066/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+88            android:name="androidx.window.sidecar"
+88-->[androidx.window:window:1.0.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/1feb89a8365e32763ab360a975eb3066/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+89            android:required="false" />
+89-->[androidx.window:window:1.0.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/1feb89a8365e32763ab360a975eb3066/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+90
+91        <receiver
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/d4e44034754859027173baaffb21486b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+92            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/d4e44034754859027173baaffb21486b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+93            android:directBootAware="false"
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/d4e44034754859027173baaffb21486b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+94            android:enabled="true"
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/d4e44034754859027173baaffb21486b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+95            android:exported="true"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/d4e44034754859027173baaffb21486b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+96            android:permission="android.permission.DUMP" >
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/d4e44034754859027173baaffb21486b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/d4e44034754859027173baaffb21486b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+98                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/d4e44034754859027173baaffb21486b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/d4e44034754859027173baaffb21486b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+99            </intent-filter>
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/d4e44034754859027173baaffb21486b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+101                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/d4e44034754859027173baaffb21486b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/d4e44034754859027173baaffb21486b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/d4e44034754859027173baaffb21486b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+104                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/d4e44034754859027173baaffb21486b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/d4e44034754859027173baaffb21486b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+105            </intent-filter>
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/d4e44034754859027173baaffb21486b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+107                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/d4e44034754859027173baaffb21486b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/emmanuellasolomon/.gradle/caches/transforms-3/d4e44034754859027173baaffb21486b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+108            </intent-filter>
+109        </receiver>
+110    </application>
+111
+112</manifest>
