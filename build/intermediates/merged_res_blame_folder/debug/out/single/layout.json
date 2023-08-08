@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.example.neurosense.app-mergeDebugResources-53:/layout/fragment_second.xml",
+        "source": "com.example.neurosense.app-main-56:/layout/fragment_second.xml"
+    },
+    {
+        "merged": "com.example.neurosense.app-mergeDebugResources-53:/layout/fragment_home.xml",
+        "source": "com.example.neurosense.app-main-56:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.neurosense.app-mergeDebugResources-53:/layout/activity_sudoku.xml",
+        "source": "com.example.neurosense.app-main-56:/layout/activity_sudoku.xml"
+    },
+    {
+        "merged": "com.example.neurosense.app-mergeDebugResources-53:/layout/content_register.xml",
+        "source": "com.example.neurosense.app-main-56:/layout/content_register.xml"
+    },
+    {
+        "merged": "com.example.neurosense.app-mergeDebugResources-53:/layout/activity_main.xml",
+        "source": "com.example.neurosense.app-main-56:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.neurosense.app-mergeDebugResources-53:/layout/sudoku_grid_cell.xml",
+        "source": "com.example.neurosense.app-main-56:/layout/sudoku_grid_cell.xml"
+    },
+    {
+        "merged": "com.example.neurosense.app-mergeDebugResources-53:/layout/fragment_first.xml",
+        "source": "com.example.neurosense.app-main-56:/layout/fragment_first.xml"
+    },
+    {
+        "merged": "com.example.neurosense.app-mergeDebugResources-53:/layout/app_bar_game_hub.xml",
+        "source": "com.example.neurosense.app-main-56:/layout/app_bar_game_hub.xml"
+    },
+    {
+        "merged": "com.example.neurosense.app-mergeDebugResources-53:/layout/fragment_account.xml",
+        "source": "com.example.neurosense.app-main-56:/layout/fragment_account.xml"
+    },
+    {
+        "merged": "com.example.neurosense.app-mergeDebugResources-53:/layout/activity_signup.xml",
+        "source": "com.example.neurosense.app-main-56:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.example.neurosense.app-mergeDebugResources-53:/layout/activity_login.xml",
+        "source": "com.example.neurosense.app-main-56:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.neurosense.app-mergeDebugResources-53:/layout/fragment_slideshow.xml",
+        "source": "com.example.neurosense.app-main-56:/layout/fragment_slideshow.xml"
+    },
+    {
+        "merged": "com.example.neurosense.app-mergeDebugResources-53:/layout/activity_game_hub.xml",
+        "source": "com.example.neurosense.app-main-56:/layout/activity_game_hub.xml"
+    },
+    {
+        "merged": "com.example.neurosense.app-mergeDebugResources-53:/layout/nav_header_game_hub.xml",
+        "source": "com.example.neurosense.app-main-56:/layout/nav_header_game_hub.xml"
+    },
+    {
+        "merged": "com.example.neurosense.app-mergeDebugResources-53:/layout/content_game_hub.xml",
+        "source": "com.example.neurosense.app-main-56:/layout/content_game_hub.xml"
+    }
+]
